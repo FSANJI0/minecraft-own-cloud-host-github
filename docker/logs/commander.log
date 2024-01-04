@@ -1,0 +1,863 @@
+2024-01-03 23:29:33,198 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2024-01-03 23:29:33,199 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2024-01-03 23:29:33,309 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210813111015_init"
+2024-01-03 23:29:33,318 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210813111015_init"
+2024-01-03 23:29:33,331 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210819155737_permissions"
+2024-01-03 23:29:33,337 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210819155737_permissions"
+2024-01-03 23:29:33,348 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210822092240_crafty_permissions"
+2024-01-03 23:29:33,350 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210822092240_crafty_permissions"
+2024-01-03 23:29:33,362 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210822101530_delete_User_Servers"
+2024-01-03 23:29:33,363 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210822101530_delete_User_Servers"
+2024-01-03 23:29:33,374 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210824205501_permissions_limits_1"
+2024-01-03 23:29:33,384 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210824205501_permissions_limits_1"
+2024-01-03 23:29:33,396 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_backup_schedule"
+2024-01-03 23:29:33,398 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_backup_schedule"
+2024-01-03 23:29:33,410 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_crash"
+2024-01-03 23:29:33,413 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_crash"
+2024-01-03 23:29:33,425 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_cron_task"
+2024-01-03 23:29:33,428 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_cron_task"
+2024-01-03 23:29:33,439 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_first_run_"
+2024-01-03 23:29:33,442 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_first_run_"
+2024-01-03 23:29:33,454 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_one_time_task"
+2024-01-03 23:29:33,456 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_one_time_task"
+2024-01-03 23:29:33,471 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_server_type"
+2024-01-03 23:29:33,474 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_server_type"
+2024-01-03 23:29:33,487 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_user_email"
+2024-01-03 23:29:33,490 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_user_email"
+2024-01-03 23:29:33,502 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_users_log_path"
+2024-01-03 23:29:33,505 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_users_log_path"
+2024-01-03 23:29:33,516 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_waiting_start_1"
+2024-01-03 23:29:33,519 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_waiting_start_1"
+2024-01-03 23:29:33,531 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_waiting_start_1 copy"
+2024-01-03 23:29:33,535 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_waiting_start_1 copy"
+2024-01-03 23:29:33,547 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210929205501_user_lang"
+2024-01-03 23:29:33,553 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210929205501_user_lang"
+2024-01-03 23:29:33,564 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20211120221511_api_keys"
+2024-01-03 23:29:33,572 - [Crafty] - INFO     - app.classes.shared.migration - Done "20211120221511_api_keys"
+2024-01-03 23:29:33,584 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20211121233959_multi_api_keys"
+2024-01-03 23:29:33,586 - [Crafty] - INFO     - app.classes.shared.migration - Done "20211121233959_multi_api_keys"
+2024-01-03 23:29:33,598 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220223_ignored_exits"
+2024-01-03 23:29:33,602 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220223_ignored_exits"
+2024-01-03 23:29:33,614 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220223_schedule_reaction"
+2024-01-03 23:29:33,617 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220223_schedule_reaction"
+2024-01-03 23:29:33,629 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220226_server_order"
+2024-01-03 23:29:33,632 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220226_server_order"
+2024-01-03 23:29:33,643 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220226_server_order copy"
+2024-01-03 23:29:33,646 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220226_server_order copy"
+2024-01-03 23:29:33,657 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220227162446_backup_options"
+2024-01-03 23:29:33,660 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220227162446_backup_options"
+2024-01-03 23:29:33,671 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220302_compress_backups"
+2024-01-03 23:29:33,675 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220302_compress_backups"
+2024-01-03 23:29:33,686 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220303_downloading"
+2024-01-03 23:29:33,689 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220303_downloading"
+2024-01-03 23:29:33,701 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220312_support_log_status"
+2024-01-03 23:29:33,704 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220312_support_log_status"
+2024-01-03 23:29:33,716 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220618_crafty_api_secret"
+2024-01-03 23:29:33,718 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220618_crafty_api_secret"
+2024-01-03 23:29:33,730 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220620_backup_shutdown"
+2024-01-03 23:29:33,733 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220620_backup_shutdown"
+2024-01-03 23:29:33,744 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220804_schedule_next_run"
+2024-01-03 23:29:33,749 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220804_schedule_next_run"
+2024-01-03 23:29:33,762 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220805_schedule_rename_comment"
+2024-01-03 23:29:33,765 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220805_schedule_rename_comment"
+2024-01-03 23:29:33,778 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220819_role_manager"
+2024-01-03 23:29:33,779 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220819_role_manager"
+2024-01-03 23:29:33,791 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220819_user_manager"
+2024-01-03 23:29:33,793 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220819_user_manager"
+2024-01-03 23:29:33,803 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220820_quota"
+2024-01-03 23:29:33,807 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220820_quota"
+2024-01-03 23:29:33,819 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220820_user_crafty"
+2024-01-03 23:29:33,825 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220820_user_crafty"
+2024-01-03 23:29:33,836 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220821_shutdown_timeout"
+2024-01-03 23:29:33,840 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220821_shutdown_timeout"
+2024-01-03 23:29:33,851 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220912_user_pfp"
+2024-01-03 23:29:33,854 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220912_user_pfp"
+2024-01-03 23:29:33,866 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220926_user_theme"
+2024-01-03 23:29:33,869 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220926_user_theme"
+2024-01-03 23:29:33,881 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20221109_login_photo"
+2024-01-03 23:29:33,884 - [Crafty] - INFO     - app.classes.shared.migration - Done "20221109_login_photo"
+2024-01-03 23:29:33,895 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230111_adding_login_opacity"
+2024-01-03 23:29:33,898 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230111_adding_login_opacity"
+2024-01-03 23:29:33,910 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230119_command_drop"
+2024-01-03 23:29:33,911 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230119_command_drop"
+2024-01-03 23:29:33,923 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230120_backup_command"
+2024-01-03 23:29:33,928 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230120_backup_command"
+2024-01-03 23:29:33,939 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230126_master_server"
+2024-01-03 23:29:33,943 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230126_master_server"
+2024-01-03 23:29:33,954 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230129_secrets_shh"
+2024-01-03 23:29:33,957 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230129_secrets_shh"
+2024-01-03 23:29:33,970 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230603_webhooks"
+2024-01-03 23:29:33,992 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230603_webhooks"
+2024-01-03 23:29:34,005 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230901_user_notif"
+2024-01-03 23:29:34,009 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230901_user_notif"
+2024-01-03 23:29:34,021 - [Crafty] - INFO     - app.classes.shared.main_models - Fresh Install Detected - Creating Default Settings
+2024-01-03 23:29:34,846 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2024-01-03 23:29:34,846 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /crafty/app/config/web/certs/commander.cert.pem
+2024-01-03 23:29:34,847 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /crafty/app/config/web/certs/commander.key.pem
+2024-01-03 23:29:34,847 - [Crafty] - INFO     - app.classes.shared.helpers - Generating a self signed SSL
+2024-01-03 23:29:34,847 - [Crafty] - INFO     - app.classes.shared.helpers - Generating a key pair. This might take a moment.
+2024-01-03 23:29:35,077 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports http:8000 https:8443
+2024-01-03 23:29:35,084 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://172.18.0.2:8443 is up and ready for connections.
+2024-01-03 23:29:37,379 - [Crafty] - ERROR    - app.classes.shared.helpers - /crafty/app/config/serverjars.json does not exist
+2024-01-03 23:29:37,379 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Checking serverjars.com API status
+2024-01-03 23:29:37,878 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Serverjars.com API is alive
+2024-01-03 23:29:37,879 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Checking Cache file age
+2024-01-03 23:29:37,879 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Cache file is over 1 day old, refreshing
+2024-01-03 23:29:38,860 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2024-01-03 23:29:41,775 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2024-01-03 23:29:41,775 - [Crafty] - INFO     - __main__ - Application path: '/crafty'
+2024-01-03 23:29:47,811 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Cache file refreshed
+2024-01-03 23:29:48,071 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2024-01-03 23:29:48,072 - [Crafty] - INFO     - __main__ - Did not find old temp dir.
+2024-01-03 23:30:46,688 - [Crafty] - INFO     - app.classes.web.public_handler - User: 1 Logged in from IP: 10.240.4.161
+2024-01-03 23:31:10,119 - [Crafty] - INFO     - app.classes.shared.main_controller - No server.properties found on import.Creating one with port selection of 25565
+2024-01-03 23:31:10,137 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 1
+2024-01-03 23:31:10,139 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2024-01-03 23:31:10,202 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220427_init"
+2024-01-03 23:31:10,203 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220427_init"
+2024-01-03 23:31:10,214 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220817_schedule_rename_downloading"
+2024-01-03 23:31:10,216 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220817_schedule_rename_downloading"
+2024-01-03 23:31:10,229 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230827_add_icon"
+2024-01-03 23:31:10,230 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230827_add_icon"
+2024-01-03 23:31:10,262 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 1 | Server Name: ONECITYRP | Auto Start: False
+2024-01-03 23:31:10,262 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:31:24,486 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:31:24,487 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:31:24,488 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:31:24,489 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:31:24,491 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:31:25,982 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:31:25,983 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:31:25,985 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:31:25,986 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:31:25,988 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:31:25,988 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-03 23:31:25,988 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:31:25,991 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 187
+2024-01-03 23:31:25,993 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:31:55,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:32:25,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:32:55,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:33:25,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:33:55,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:34:25,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:34:55,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:35:25,985 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:35:55,985 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:35:59,883 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:04,941 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:09,947 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:14,950 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:19,952 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:24,965 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:25,988 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:36:30,045 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:35,049 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:36:55,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:37:25,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:37:55,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:38:25,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:38:32,915 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:38:32,916 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:38:32,918 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:38:32,918 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:38:32,920 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:38:32,921 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-03 23:38:32,921 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:38:32,924 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 295
+2024-01-03 23:38:32,925 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:39:02,925 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:39:05,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:39:05,253 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:39:06,662 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:39:10,302 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:39:15,295 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:39:20,287 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:39:25,295 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:39:32,917 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:40:02,917 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:40:32,917 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:41:02,917 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:41:11,320 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:41:21,031 - [Crafty] - INFO     - app.classes.shared.server - Restart command detected. Sending stop command to 1.
+2024-01-03 23:41:21,031 - [Crafty] - INFO     - app.classes.shared.server - Stop command requested for ONECITYRP.
+2024-01-03 23:41:21,032 - [Crafty] - INFO     - app.classes.shared.server - Cache file refreshed
+2024-01-03 23:41:21,032 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(58 seconds until force close)
+2024-01-03 23:41:23,034 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(56 seconds until force close)
+2024-01-03 23:41:25,036 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(54 seconds until force close)
+2024-01-03 23:41:27,036 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(52 seconds until force close)
+2024-01-03 23:41:29,039 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(50 seconds until force close)
+2024-01-03 23:41:31,042 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(48 seconds until force close)
+2024-01-03 23:41:32,918 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:41:33,044 - [Crafty] - INFO     - app.classes.shared.server - Stopped Server ONECITYRP with PID 295
+2024-01-03 23:41:33,046 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:41:35,086 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:41:35,087 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:41:35,089 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:41:35,089 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:41:35,091 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:41:35,092 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-03 23:41:35,092 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:41:35,095 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 376
+2024-01-03 23:41:35,096 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:41:36,090 - [Crafty] - INFO     - app.classes.shared.server - Stop command requested for ONECITYRP.
+2024-01-03 23:41:36,092 - [Crafty] - INFO     - app.classes.shared.server - Cache file refreshed
+2024-01-03 23:41:36,092 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(58 seconds until force close)
+2024-01-03 23:41:38,102 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(56 seconds until force close)
+2024-01-03 23:41:40,104 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(54 seconds until force close)
+2024-01-03 23:41:42,107 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(52 seconds until force close)
+2024-01-03 23:41:44,109 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(50 seconds until force close)
+2024-01-03 23:41:46,112 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(48 seconds until force close)
+2024-01-03 23:41:48,116 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(46 seconds until force close)
+2024-01-03 23:41:50,120 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(44 seconds until force close)
+2024-01-03 23:41:52,123 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(42 seconds until force close)
+2024-01-03 23:41:54,125 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(40 seconds until force close)
+2024-01-03 23:41:56,128 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(38 seconds until force close)
+2024-01-03 23:41:58,129 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(36 seconds until force close)
+2024-01-03 23:42:00,132 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(34 seconds until force close)
+2024-01-03 23:42:02,136 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(32 seconds until force close)
+2024-01-03 23:42:04,138 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(30 seconds until force close)
+2024-01-03 23:42:05,089 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:42:05,251 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:42:05,251 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:42:05,597 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:42:05,597 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:42:06,146 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(28 seconds until force close)
+2024-01-03 23:42:07,985 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:08,149 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(26 seconds until force close)
+2024-01-03 23:42:10,152 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(24 seconds until force close)
+2024-01-03 23:42:10,300 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:10,633 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:12,155 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(22 seconds until force close)
+2024-01-03 23:42:14,158 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(20 seconds until force close)
+2024-01-03 23:42:15,277 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:15,631 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:16,160 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(18 seconds until force close)
+2024-01-03 23:42:18,161 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(16 seconds until force close)
+2024-01-03 23:42:20,164 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(14 seconds until force close)
+2024-01-03 23:42:20,265 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:20,597 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:42:22,165 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(12 seconds until force close)
+2024-01-03 23:42:24,168 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(10 seconds until force close)
+2024-01-03 23:42:26,172 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(8 seconds until force close)
+2024-01-03 23:42:28,175 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(6 seconds until force close)
+2024-01-03 23:42:30,179 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(4 seconds until force close)
+2024-01-03 23:42:32,182 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(2 seconds until force close)
+2024-01-03 23:42:34,184 - [Crafty] - INFO     - app.classes.shared.server - Stopped Server ONECITYRP with PID 376
+2024-01-03 23:42:34,186 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:42:35,089 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:42:35,227 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:42:35,228 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:42:35,231 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:42:35,231 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:42:35,233 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:42:35,233 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-03 23:42:35,233 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:42:35,237 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 454
+2024-01-03 23:42:35,238 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:43:05,229 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:43:05,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:43:05,249 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:43:05,744 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:43:05,744 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:43:07,606 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:10,283 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:10,765 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:15,276 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:15,773 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:20,269 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:20,737 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:43:35,233 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:44:05,231 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:44:35,231 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:45:05,231 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:45:35,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:46:05,229 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:46:35,229 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:47:05,229 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:47:35,229 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:48:05,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:48:35,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:48:36,482 - [Crafty] - INFO     - app.classes.shared.server - Stop command requested for ONECITYRP.
+2024-01-03 23:48:36,483 - [Crafty] - INFO     - app.classes.shared.server - Cache file refreshed
+2024-01-03 23:48:36,483 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(58 seconds until force close)
+2024-01-03 23:48:38,483 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(56 seconds until force close)
+2024-01-03 23:48:40,485 - [Crafty] - INFO     - app.classes.shared.server - Stopped Server ONECITYRP with PID 454
+2024-01-03 23:48:40,487 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:49:05,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:49:35,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:50:05,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:50:20,045 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:25,155 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:30,173 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:35,222 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:35,229 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:50:40,255 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:45,260 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:50,264 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:50:55,268 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:00,272 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:05,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:51:05,288 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:10,299 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:15,304 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:20,329 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:25,365 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:30,371 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:35,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:51:35,377 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:40,383 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:51:45,418 - [Crafty] - INFO     - app.classes.web.upload_handler - Upload completed
+2024-01-03 23:52:05,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:52:35,230 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:52:49,783 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:52:49,784 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:52:49,787 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:52:49,787 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:52:49,789 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:52:49,789 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-03 23:52:49,790 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:52:49,793 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 545
+2024-01-03 23:52:49,794 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:53:19,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:53:20,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:53:20,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:53:25,297 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:53:25,297 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:53:30,252 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:53:30,252 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:53:40,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:53:40,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:53:49,787 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:53:50,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:53:50,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:53:55,220 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:53:55,260 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:54:00,258 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-03 23:54:19,786 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:54:49,787 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:55:19,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:55:49,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:56:19,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:56:49,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:57:19,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:57:49,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:58:19,785 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:58:45,026 - [Crafty] - INFO     - app.classes.shared.server - Stop command requested for ONECITYRP.
+2024-01-03 23:58:45,027 - [Crafty] - INFO     - app.classes.shared.server - Cache file refreshed
+2024-01-03 23:58:45,027 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(58 seconds until force close)
+2024-01-03 23:58:47,029 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(56 seconds until force close)
+2024-01-03 23:58:49,032 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(54 seconds until force close)
+2024-01-03 23:58:49,787 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:58:51,032 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(52 seconds until force close)
+2024-01-03 23:58:53,035 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(50 seconds until force close)
+2024-01-03 23:58:55,037 - [Crafty] - INFO     - app.classes.shared.server - Stopped Server ONECITYRP with PID 545
+2024-01-03 23:58:55,038 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:58:58,082 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-03 23:58:58,083 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-03 23:58:58,085 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-03 23:58:58,085 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-03 23:58:58,087 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:58:58,087 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-03 23:58:58,088 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-03 23:58:58,091 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 707
+2024-01-03 23:58:58,092 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:59:25,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:25,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:28,084 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:59:28,597 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:28,597 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:33,593 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:33,593 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:35,251 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:35,252 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:38,594 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:38,604 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:45,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:45,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:48,593 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:48,594 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:55,250 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:55,250 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-03 23:59:58,085 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-03 23:59:58,593 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-03 23:59:58,593 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:00:00,421 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:00:00,425 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:00:03,592 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:00:05,249 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:00:28,085 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:00:58,084 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:01:28,084 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:01:54,219 - [Crafty] - INFO     - app.classes.shared.server - Stop command requested for ONECITYRP.
+2024-01-04 00:01:54,220 - [Crafty] - INFO     - app.classes.shared.server - Cache file refreshed
+2024-01-04 00:01:54,220 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(58 seconds until force close)
+2024-01-04 00:01:56,222 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(56 seconds until force close)
+2024-01-04 00:01:58,093 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:01:58,224 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(54 seconds until force close)
+2024-01-04 00:02:00,226 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(52 seconds until force close)
+2024-01-04 00:02:02,229 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP is still running - waiting 2s to see if it stops(50 seconds until force close)
+2024-01-04 00:02:04,231 - [Crafty] - INFO     - app.classes.shared.server - Stopped Server ONECITYRP with PID 707
+2024-01-04 00:02:04,233 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:02:28,084 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:02:58,084 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:03:28,084 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:03:52,382 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-04 00:03:52,382 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-04 00:03:52,385 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-04 00:03:52,385 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-04 00:03:52,387 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-04 00:03:52,388 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-04 00:03:52,388 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-04 00:03:52,391 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 851
+2024-01-04 00:03:52,393 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:04:22,387 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:04:35,248 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:35,249 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:04:37,893 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:37,894 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:04:45,250 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:45,251 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:04:47,899 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:47,899 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:04:52,387 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:04:55,251 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:55,252 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:04:57,893 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:57,894 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:04:57,897 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:04:57,897 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:05:02,099 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:05:02,897 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:05:05,249 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:05:07,890 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:05:10,249 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:05:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:05:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:06:22,387 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:06:52,385 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:07:22,385 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:07:52,388 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:08:22,390 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:08:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:09:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:09:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:10:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:10:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:11:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:11:52,383 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:12:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:12:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:13:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:13:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:14:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:14:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:15:22,383 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:15:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:16:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:16:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:17:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:17:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:18:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:18:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:19:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:19:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:20:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:20:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:21:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:21:52,383 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:22:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:22:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:23:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:23:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:24:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:24:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:25:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:25:52,383 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:26:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:26:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:27:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:27:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:28:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:28:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:29:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:29:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:30:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:30:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:31:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:31:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:32:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:32:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:33:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:33:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:34:22,383 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:34:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:35:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:35:52,383 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:36:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:36:52,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:37:22,384 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:44:24,535 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2024-01-04 00:44:24,538 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2024-01-04 00:44:24,613 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2024-01-04 00:44:24,657 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2024-01-04 00:44:24,657 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /crafty/app/config/web/certs/commander.cert.pem
+2024-01-04 00:44:24,658 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /crafty/app/config/web/certs/commander.key.pem
+2024-01-04 00:44:24,659 - [Crafty] - INFO     - app.classes.shared.helpers - Cert and Key files already exists, not creating them.
+2024-01-04 00:44:24,659 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 1
+2024-01-04 00:44:24,661 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports http:8000 https:8443
+2024-01-04 00:44:24,668 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2024-01-04 00:44:24,687 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2024-01-04 00:44:24,687 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://172.18.0.2:8443 is up and ready for connections.
+2024-01-04 00:44:24,702 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 1 | Server Name: ONECITYRP | Auto Start: False
+2024-01-04 00:44:24,702 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:44:27,287 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Checking serverjars.com API status
+2024-01-04 00:44:27,764 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Serverjars.com API is alive
+2024-01-04 00:44:27,766 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Checking Cache file age
+2024-01-04 00:44:28,766 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2024-01-04 00:44:30,770 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2024-01-04 00:44:30,770 - [Crafty] - INFO     - __main__ - Application path: '/crafty'
+2024-01-04 00:44:31,036 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2024-01-04 00:44:40,772 - [Crafty] - INFO     - __main__ - Recieved signal SIGTERM [15], stopping Crafty...
+2024-01-04 00:44:40,773 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Found 0 running server(s)
+2024-01-04 00:44:40,773 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Stopping All Servers
+2024-01-04 00:44:40,773 - [Crafty] - INFO     - app.classes.controllers.servers_controller - All Servers Stopped
+2024-01-04 00:44:40,774 - [Crafty] - INFO     - app.classes.shared.command - Stopping all server daemons / threads
+2024-01-04 00:45:05,721 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2024-01-04 00:45:05,722 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2024-01-04 00:45:05,726 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2024-01-04 00:45:05,753 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2024-01-04 00:45:05,753 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /crafty/app/config/web/certs/commander.cert.pem
+2024-01-04 00:45:05,754 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /crafty/app/config/web/certs/commander.key.pem
+2024-01-04 00:45:05,755 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 1
+2024-01-04 00:45:05,755 - [Crafty] - INFO     - app.classes.shared.helpers - Cert and Key files already exists, not creating them.
+2024-01-04 00:45:05,758 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2024-01-04 00:45:05,758 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports http:8000 https:8443
+2024-01-04 00:45:05,765 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2024-01-04 00:45:05,768 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://172.18.0.2:8443 is up and ready for connections.
+2024-01-04 00:45:05,779 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 1 | Server Name: ONECITYRP | Auto Start: False
+2024-01-04 00:45:05,780 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:45:08,357 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Checking serverjars.com API status
+2024-01-04 00:45:08,805 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Serverjars.com API is alive
+2024-01-04 00:45:08,806 - [Crafty] - INFO     - app.classes.minecraft.serverjars - Checking Cache file age
+2024-01-04 00:45:09,829 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2024-01-04 00:45:11,832 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2024-01-04 00:45:11,833 - [Crafty] - INFO     - __main__ - Application path: '/crafty'
+2024-01-04 00:45:12,086 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2024-01-04 00:45:12,086 - [Crafty] - INFO     - __main__ - Did not find old temp dir.
+2024-01-04 00:46:21,430 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics ONECITYRP every 5 seconds
+2024-01-04 00:46:21,430 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics ONECITYRP every 30 seconds
+2024-01-04 00:46:21,432 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server ONECITYRP
+2024-01-04 00:46:21,433 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda/tempfile.txt is writable
+2024-01-04 00:46:21,435 - [Crafty] - INFO     - app.classes.shared.server - Launching Server ONECITYRP with command ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-04 00:46:21,435 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2024-01-04 00:46:21,435 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/1e6e079d-25a1-46d8-ae0c-aa580e532bda with command: ['java', '-Xms10000M', '-Xmx10000M', '-jar', 'mohist-1.16.5.jar', 'nogui']
+2024-01-04 00:46:21,449 - [Crafty] - INFO     - app.classes.shared.server - Server ONECITYRP running with PID 28
+2024-01-04 00:46:21,450 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:46:51,436 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:47:10,783 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:47:10,789 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:47:20,783 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:47:20,784 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:47:21,432 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:47:26,941 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:47:26,941 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:47:30,787 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+AttributeError: 'bool' object has no attribute 'players'
+2024-01-04 00:47:30,788 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+AttributeError: 'bool' object has no attribute 'icon'
+2024-01-04 00:47:35,868 - [Crafty] - ERROR    - app.classes.minecraft.mc_ping - Error geting player information key error
+2024-01-04 00:47:51,432 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:48:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:48:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:49:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:49:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:50:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:50:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:51:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:51:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:52:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:52:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:53:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:53:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:54:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:54:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:55:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:55:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:56:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:56:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:57:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:57:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:58:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:58:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:59:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 00:59:51,433 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:00:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:00:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:01:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:01:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:02:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:02:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:03:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:03:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:04:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:04:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:05:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:05:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:06:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:06:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:07:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:07:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:08:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:08:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:09:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:09:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:10:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:10:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:11:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:11:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:12:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:12:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:13:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:13:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:14:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:14:51,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...
+2024-01-04 01:15:21,431 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server ONECITYRP ...

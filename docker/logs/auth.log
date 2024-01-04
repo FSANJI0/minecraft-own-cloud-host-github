@@ -1,0 +1,2 @@
+2024-01-03 23:30:46,641 - [AUTH] - INFO - User attempting to authenticate from 10.240.4.161
+2024-01-03 23:30:46,701 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.240.4.161
